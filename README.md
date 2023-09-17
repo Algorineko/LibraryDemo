@@ -1,24 +1,7 @@
-# vue-demo1
+# 图书管理系统9.16
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+本次完成了cookie存储的登录。
+先是学了Vue的单页应用程序SPA，用导航栏控制是登录界面或是图书界面，
+未登录状态“书单”链接被禁用；用户名、密码存在本地；
+如果不点退出登录，会在浏览器存含有用户名的cookie，验证后会保持登录状态。
+登录或退出登录会重定向界面到相应位置。
